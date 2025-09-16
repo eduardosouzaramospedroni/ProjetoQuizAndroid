@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/text_pergunta1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/texto_pergunta_1"
@@ -31,25 +31,37 @@
             android:id="@+id/rb_a"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="@string/texto_alternativa_a" />
 
         <RadioButton
             android:id="@+id/rb_b"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="@string/texto_alternativa_b" />
 
         <RadioButton
             android:id="@+id/rb_c"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="@string/texto_alternativa_c" />
 
         <RadioButton
             android:id="@+id/rb_d"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="@string/texto_alternativa_d" />
     </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_responder"
+        android:layout_width="339dp"
+        android:layout_height="58dp"
+        android:text="@string/texto_botao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.757" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
