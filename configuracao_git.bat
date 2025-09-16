@@ -9,14 +9,14 @@ git init
 echo 2 de 6: FEITO INIT
 
 :: Configurações globais do Git
-git config --global user.name "SEU NOME DE USUÁRIO"
-git config --global user.email "SEU EMAIL"
+git config --global user.name "eduardosouzaramospedroni"
+git config --global user.email "edusouzapedroni@gmail.com"
 echo 3 de 6: CONFIGURADO GLOBAL
 
 :: Adiciona o repositório remoto (só executa se já não estiver adicionado)
 git remote get-url origin >nul 2>&1
 if errorlevel 1 (
-    git remote add origin "URL DO PROJETO"
+    git remote add origin "https://github.com/eduardosouzaramospedroni/ProjetoQuizAndroid.git"
     echo 4 de 6:  ADICIONADO REMOTE 
 )
 
@@ -38,5 +38,6 @@ pause
 
 :: Comando para excluir o próprio script
 start "" cmd /c del "%~f0"
+
 
 
