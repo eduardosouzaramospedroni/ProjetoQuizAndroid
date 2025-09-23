@@ -31,46 +31,53 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.464"
+        >
 
         <RadioButton
             android:id="@+id/rb_a"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/texto_alternativa_a"
-            android:textColor="@color/black"
-            android:fontFamily="sans-serif"
+            android:layout_marginBottom="12dp"
             android:background="@color/azul_claro"
+            android:fontFamily="sans-serif"
+            android:text="@string/texto_alternativa_a"
+            android:textAlignment="center"
+            android:textColor="@color/black"
             />
 
         <RadioButton
             android:id="@+id/rb_b"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/texto_alternativa_b"
-            android:textColor="@color/black"
-            android:fontFamily="sans-serif"
+            android:layout_marginBottom="12dp"
             android:background="@color/azul_claro"
-            />
+            android:fontFamily="sans-serif"
+            android:text="@string/texto_alternativa_b"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
         <RadioButton
             android:id="@+id/rb_c"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/texto_alternativa_c"
-            android:textColor="@color/black"
-            android:fontFamily="sans-serif"
+            android:layout_marginBottom="12dp"
             android:background="@color/azul_claro"
-            />
+            android:fontFamily="sans-serif"
+            android:text="@string/texto_alternativa_c"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
 
         <RadioButton
             android:id="@+id/rb_d"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/texto_alternativa_d"
-            android:textColor="@color/black"
-            android:fontFamily="sans-serif"
             android:background="@color/azul_claro"
-            />
+            android:fontFamily="sans-serif"
+            android:text="@string/texto_alternativa_d"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
     </RadioGroup>
 
     <Button
