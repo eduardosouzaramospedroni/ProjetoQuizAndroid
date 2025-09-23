@@ -5,18 +5,24 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/txv_perguntas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
         android:text="@string/texto_pergunta_1"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.105" />
+        app:layout_constraintVertical_bias="0.271" />
 
     <RadioGroup
         android:id="@+id/rbg_principal"
@@ -31,25 +37,40 @@
             android:id="@+id/rb_a"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/texto_alternativa_a" />
+            android:text="@string/texto_alternativa_a"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:background="@color/azul_claro"
+            />
 
         <RadioButton
             android:id="@+id/rb_b"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/texto_alternativa_b" />
-
+            android:text="@string/texto_alternativa_b"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:background="@color/azul_claro"
+            />
         <RadioButton
             android:id="@+id/rb_c"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/texto_alternativa_c" />
+            android:text="@string/texto_alternativa_c"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:background="@color/azul_claro"
+            />
 
         <RadioButton
             android:id="@+id/rb_d"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/texto_alternativa_d" />
+            android:text="@string/texto_alternativa_d"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:background="@color/azul_claro"
+            />
     </RadioGroup>
 
     <Button
@@ -62,6 +83,9 @@
         app:layout_constraintHorizontal_bias="0.527"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.757" />
+        app:layout_constraintVertical_bias="0.757"
+        android:background="@drawable/botao1"
+        android:textColor="@color/black"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
